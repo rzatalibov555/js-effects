@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main{
+            width: 150px;
+            height: 150px;
+            background: red;
+            background-image: url('https://wtlivewebtierstorage.blob.core.windows.net/cache/b/7/0/4/9/8/b704980da77099a83a22bc660fe32a4c70d80d19.jpg');
+            background-size: cover;
+            float: left;
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main data-tilt"></div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.0/tilt.jquery.min.js"></script>
+    <script>
+      $(".data-tilt").tilt({
+        glare: true,
+        maxGlare: 6,
+        perspective: 1000,
+        scale: 1,
+      });
+    </script>
+
+    
+</body>
+</html>

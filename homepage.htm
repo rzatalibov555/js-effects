@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom CSS -->
+
+    <!-- Wow.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Fizza Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand fw-bold" href="#">Fizza Nayab</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <a class="btn btn-outline-dark d-none d-lg-block" href="#contact">Let's Talk</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero animate__animated animate__flipInX" id="hero">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://img.freepik.com/premium-photo/field-sunflowers-girl-stands-with-her-back-sunset-her-arms-spread-wide_254554-37.jpg"
+                        alt="Sunflowers" class="d-block w-100" height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://bluezoneplanet.com/cdn/shop/articles/9w-ogqjqwlk1683264054.jpg?v=1683264488"
+                        alt="Blue Zone" class="d-block w-100" height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://t3.ftcdn.net/jpg/05/87/23/90/360_F_587239066_bYkuSvFT2czznLRu21iWRzW7VWHhfwEI.jpg"
+                        alt="Sunset" class="d-block w-100" height="600">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <section class="services animate__animated animate__slideInUp" id="services">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-4">Services</h2>
+            <div class="row">
+                <div class="col-lg col-sm-6 mt-4">
+                    <div class="card animate__animated animate__slideInLeft">
+                        <i class="bi bi-cup-hot-fill"></i>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Service One</h5>
+                            <p class="card-text">Description of service one.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 mt-4">
+                    <div class="card animate__animated animate__slideInUp">
+                        <i class="bi bi-cup-hot-fill"></i>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Service Two</h5>
+                            <p class="card-text">Description of service two.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 mt-4">
+                    <div class="card animate__animated animate__slideInRight">
+                        <i class="bi bi-cup-hot-fill"></i>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Service Three</h5>
+                            <p class="card-text">Description of service three.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-4">About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum est id pulvinar mollis. Nullam
+                rhoncus dignissim ipsum, ac pulvinar tellus sodales ut. Vestibulum tincidunt malesuada consectetur.
+                Nulla vel fermentum leo. Mauris rhoncus blandit justo, at congue dui rhoncus sit amet.</p>
+            <p>Proin molestie sapien vel nulla accumsan, sit amet viverra metus ornare. Mauris iaculis ex vitae mollis
+                pulvinar. Phasellus fringilla neque sed ligula lacinia iaculis.</p>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid"
+                                src="https://cdn.images.express.co.uk/img/dynamic/25/590x/secondary/Rome-5117748.jpg?r=1702654018368"
+                                alt="Rome">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Threads</div>
+                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid"
+                                src="https://www.colorwallpapers.com/uploads/wallpaper/yellow-aesthetic-wallpapers/width-853/sA42cZwtmzKB-fantasy-yellow-girl-fire-aesthetic-wallpapers.jpg"
+                                alt="Yellow Girl">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Explore</div>
+                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="https://pbs.twimg.com/media/D1c0qmfV4AEVcdM.jpg"
+                                alt="Rain Scene">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Finish</div>
+                            <div class="portfolio-caption-subheading text-muted">Identity</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid"
+                                src="https://png.pngtree.com/background/20230613/original/pngtree-girl-wearing-a-hat-stands-in-the-middle-of-a-sunflower-picture-image_3427706.jpg"
+                                alt="Winter Wonderland">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Lines</div>
+                            <div class="portfolio-caption-subheading text-muted">Branding</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid"
+                                src="https://www.thestatesman.com/wp-content/uploads/2018/09/Dance.jpg"
+                                alt="Rain Drops">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Southwest</div>
+                            <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid"
+                                src="https://d3h7nocoh5wnls.cloudfront.net/medium_65f863d2b8a8f574defc2490_Moody_Rain_Dance_Captions_for_Instagram_104984b10c.webp"
+                                alt="Nature">
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Window</div>
+                            <div class="portfolio-caption-subheading text-muted">Photography</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-4">Contact</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum est id pulvinar mollis. Nullam
+                rhoncus dignissim ipsum, ac pulvinar tellus sodales ut.</p>
+        </div>
+    </section>
+
+
+
+    <!-- Chatbox -->
+    <div id="chatbox" class="chatbox">
+        <div class="chatbox-header">
+            <h5 class="chatbox-title">Chat with us</h5>
+            <button id="closeChat" class="btn-close">&times;</button>
+        </div>
+        <div class="chatbox-body">
+            <div class="messages" id="messages">
+                <!-- Messages will be displayed here -->
+            </div>
+            <input type="text" id="chatInput" class="form-control" placeholder="Type a message...">
+            <button id="sendMessage" class="btn btn-warning">Send</button>
+        </div>
+    </div>
+    <!-- Chatbox Toggle Button -->
+    <button id="toggleChat" class="btn btn-warning">Chat</button>
+
+</body>
+
+</html>
+<script src="javascript/index.js"></script>
+
+
+
+<!-- https://www.youtube.com/watch?v=ZCtXfJMdgE0&list=PLMPgoZdlPumexxtvuPUB3TY7LExI1N_Xp&index=2 -->
+<!-- https://gsap.com/ -->
+<!-- https://micku7zu.github.io/vanilla-tilt.js/ -->
+<!-- https://wowjs.uk/ -->
+<!-- https://codepen.io/sultana-faria/pen/VwLyBKj -->
+<!-- https://codepen.io/jlaprs/pen/OJPePzJ -->
+<!-- https://codepen.io/ig_design/pen/KKVjpXx -->
+<!-- https://codepen.io/kirkegaard/pen/JjMZgWY -->
